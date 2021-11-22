@@ -1,0 +1,44 @@
+.badge {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+.nav__settingdot__find {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  right: -5px;
+  bottom: 20px;
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+.chats__plus {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  left: 92px;
+  bottom: 5px;
+}

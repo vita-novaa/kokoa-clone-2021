@@ -1,0 +1,41 @@
+#settingsheight {
+  height: 170vh;
+}
+
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.only-screen {
+  border-bottom: none;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+@keyframes settingAnimation {
+  from {
+    background-color: white;
+  }
+  to {
+    transform: none;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+
+.settings__setting:hover {
+  will-change: transform;
+  animation: settingAnimation 0.1s forwards;
+}
